@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #f49999;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ul li {
+    display: inline;
+    margin: 0 15px;
+    color: blue;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.section {
+    padding: 50px;
+    text-align: center;
+}
+
+.section h2 {
+    padding: 25px;
+
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery-item {
+    background-color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0px;
+}
+
+.foto {
+display: flex;
+align-items: center;
+}
+
+img.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: contain;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.profile-image {
+    margin-top: 40px;
+    width: 250px; /* Sesuaikan ukuran gambar */
+    height: auto;
+    margin-right: 5px; /* Jarak antara gambar dan teks */
+    border-radius: 45%; /* Membuat gambar bulat (opsional) */
+  }
+
+.data {
+    color: rgb(255, 0, 0);
+  }
+
+h1 {
+    color: black;
+  }
+
+a {
+    margin-right: 20px;
+}
